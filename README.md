@@ -1,0 +1,1 @@
+This repository contains material for an article about **databases** (including related topics such as *data* and *data formats*) to be published in late 2018 or early 2019 in the [ISKO Encyclopedia of Knowledge Organization](http://www.isko.org/cyclo/).
