@@ -1,0 +1,37 @@
+body {background-color: #ffffff; color: #000000; padding: 0 0 0 0; margin: 0 0 0 0;}
+body {font-family: "Gill Sans MT", "Helvetica", "Verdana", "Arial", sans-serif;}
+
+table, tr, td {border-spacing: 0; padding: 0;}
+
+#isko {width: 175px; background-color: #ddefe6; border-bottom: none; border-right: 1px dotted #008070; padding: 0 0 0 0; text-align: right;}
+
+#banner {background-color: #ffffff; padding: 0 0 0 0; margin: 0 0 0 0;}
+
+#navigation {width: 175px; height: 250px; vertical-align: top; background-color: #ddefe6; border-right: 1px dotted #008070; padding: 10px 0 10px 0;}
+#navigation a {display: block; font-weight: bold; background-color: #ddefe6; color: #6F4800; padding: 0 10px 10px 10px; text-decoration: none; text-align: right;}
+
+#navigation a.current {color: #008070;}
+#navigation a:hover {color: #008070;}
+#navigation a:hover.current {color: #008070; cursor: default;}
+#navigation a:active {color: #ff0000;}
+
+#logo {background-color: #ddefe6; border-right: 1px solid #008070; padding: 20px 0 0 10px; vertical-align: top; text-align: center; font-size: 10px;}
+
+#content {background-color: #ffffff; color: #000000; padding: 0 20px 20px 20px; vertical-align: top;}
+
+#blurb {margin: 8px 0 0 0;}
+
+h1 {background-color: #008070; color: #ddefe6; padding: 0 10px; margin: 10px 0 10px 10px;}
+h2 {background-color: #ddefe6; color: #008070; padding: 2px 10px 3px 10px; margin: 0 10px 0 0; border-right: 1px solid #008070; border-top: 1px solid #008070; border-bottom: 1px solid #008070;}
+h3 {color: #008070; padding: 0 0 0 10px; margin: 30px 0 0 0; background-image: url(gradient.jpg); background-repeat: repeat-y; background-position: left;}
+h4 {color: #008070; margin: 10px 0 0 0;}
+.item {margin: 0 0 0 0;}
+.right {padding: 0 0 0 10px;}
+p.small-right {text-align: right; font-size: 10px;}
+a {color: #6F4800;}
+.menu {text-decoration: none;}
+.menu:hover {text-decoration:underline;}
+
+#TOC ul { list-style: none; padding-left: 1em; }
+#TOC > ul { list-style: none; padding:0; margin-top: 0; }
+#TOC a { text-decoration: none; }
