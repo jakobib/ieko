@@ -32,6 +32,9 @@ a {color: #6F4800;}
 .menu {text-decoration: none;}
 .menu:hover {text-decoration:underline;}
 
+
 #TOC ul { list-style: none; padding-left: 1em; }
 #TOC > ul { list-style: none; padding:0; margin-top: 0; }
 #TOC a { text-decoration: none; }
+
+a[href^="http://www.isko.org/cyclo/"]:before { content: "→ "; padding-right: 0.2em; display:inline-block; }

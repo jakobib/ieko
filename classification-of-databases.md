@@ -26,7 +26,7 @@ among other categories.
 
 This aspect refers to the type of records or documents stored in a database.
 Content types are defined by a common data model or data format that all
-individual records must conform to (see [data modeling](data-modeling.md)).
+individual records must conform to (see [data modeling](#data-modeling)).
 Typical database types by content type include:
 
   * **document repositories** store
@@ -53,7 +53,7 @@ include relational databases, object database, graph database,
 document-oriented database, flat-file database, and data warehouses.
 
 Basic properties of distinct database models are described in section 
-[database management systems](database-management-systems.md).
+[database management systems](#dbms).
 
 
 ## Implementation {.unnumbered}
