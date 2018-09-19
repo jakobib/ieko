@@ -40,6 +40,10 @@ $endif$
 $for(header-includes)$
   $header-includes$
 $endfor$
+  <script src="https://hypothes.is/embed.js" async></script>
+  $if(outputfile)$
+  <link rel="canonical" href="https://jakobib.github.io/ieko/$outputfile$">
+  $endif$
 </head>
 <body>
 $for(include-before)$
