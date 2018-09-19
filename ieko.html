@@ -46,16 +46,20 @@ $for(include-before)$
 $include-before$
 $endfor$
 
+$if(title)$
 <h2 class="title">$title$</h2>
+$endif$
 $if(subtitle)$
 <p class="subtitle">$subtitle$</p>
 $endif$
 <blockquote>
+$if(author)$
 by
 $for(author)$
 <a href="#" class="author">$author$</a>
 $endfor$
 <p></p>
+$endif$
 $if(toc)$
 <div id="$idprefix$TOC">
   Table of contents:

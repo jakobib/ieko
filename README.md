@@ -1,5 +1,15 @@
-This repository contains material for an article about **databases** (including related topics such as *data* and *data formats*) to be published in late 2018 or early 2019 in the [ISKO Encyclopedia of Knowledge Organization](http://www.isko.org/cyclo/).
+This page contains article drafts for the [ISKO Encyclopedia of Knowledge Organization](http://www.isko.org/cyclo/) (IEKO).
 
-## Technical background
+**This is not the official IEKO nor part of it!**
 
-The article is written in Markdown syntax and processed with Pandoc to HTML and other formats. The current draft is published at <https://jakobib.github.io/isko-database/>.
+See <https://github.com/jakobib/ieko> for source code (pull requests are welcome).
+
+**Articles:**
+
+* [Database](database.md) by Jakob Voß
+
+**Technical background:**
+
+Articles are written in Markdown syntax and processed with Pandoc to HTML and PDF.
+The current version is automatically published at <https://jakobib.github.io/ieko/>.
+
