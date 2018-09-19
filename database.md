@@ -7,7 +7,6 @@ abstract:
 
 ~~~include
 introduction.md
-classification-of-databases.md
 ~~~
 
 # History of databases
@@ -18,7 +17,7 @@ classification-of-databases.md
 
 ## Bookkeeping and archives
 
-*...data manaement before digital data processing...*
+*...data management before digital data processing...*
 
 ## Digital databases
 
@@ -29,9 +28,11 @@ classification-of-databases.md
 data-modeling.md
 database-management-systems.md
 database-services.md
+classification-of-databases.md
 ~~~
 
 # Summary
 
 ...
 
+# References {.unnumbered}
