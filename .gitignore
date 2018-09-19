@@ -1,2 +1,4 @@
 *.html
 !ieko*.html
+
+build/

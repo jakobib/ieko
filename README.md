@@ -2,4 +2,4 @@ This repository contains material for an article about **databases** (including 
 
 ## Technical background
 
-The article is written in Markdown syntax and processed with Pandoc to HTML and other formats.
+The article is written in Markdown syntax and processed with Pandoc to HTML and other formats. The current draft is published at <https://jakobib.github.io/isko-database/>.
