@@ -1,4 +1,4 @@
-# Classification of databases
+# Classification of databases {#classification}
 
 Individual databases and database types can be grouped and described according
 to multiple criteria.  From the perspective of Knowledge Organization databases
