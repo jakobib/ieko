@@ -13,6 +13,7 @@ build: database.html README.html
 	cp README.html build/index.html
 	cp isko.css build
 	cp *.jpg build
+	cp *.png build
 
 database.html: database.md
 
