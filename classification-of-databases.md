@@ -2,24 +2,35 @@
 
 Individual databases and database types can be grouped and described according
 to multiple criteria.  From the perspective of Knowledge Organization databases
-in general can be classified with a faceted classification of four semantic categories:
+can be classified with a faceted classification of four semantic categories:
+domain of application, content type, database model, and implementation. The
+categories can roughly be mapped to the RDA/ONIX categories *content* for
+domain of application and content type and to *carrier* for database model and
+implementation [@RDAONIX2006]. This comparison should be taken with care as
+both dimensions are connected [@Green2007]. In particular what is stored in a
+database (domain of application) influences how it is structured (content type
+and database model) and vice versa.
 
 
 ## Domain of Application {.unnumbered}
 
 The most practical aspect of a database is its intended or its actual use.
-This domain of a database can be 
+Subcategories of this domain include:
 
-  * a **subject area** (e.g. chemical databases, biological databases, 
-    financial databases, bibliographical databases, music database...),
+  * The **subject area** indicates what principal kind of information is managed
+    with the database (e.g. chemical databases, biological databases, 
+    financial databases, bibliographical databases, music database...).
 
-  * an **audience or operator** (e.g. public databases, private databases,
-    government databases, decision support systems, collaborative databases...), 
+  * The **audience or operator** indicates who typically uses the database in
+    which ways (e.g. public databases, private databases, government databases,
+    decision support systems, collaborative databases...).
 
-  * a **type of access** (e.g. online databases, free databases,
-    commercial databases...)
+  * The **type of access** identifies methods and requirements to use the
+    database (e.g. online databases, free databases, commercial databases...).
 
-among other categories.
+For instance most library catalogs mainly manage bibliographic metadata. Their
+audience includes the general public having read access and selected librarians
+having write access.
 
 
 ## Content Type {.unnumbered}
@@ -29,15 +40,18 @@ Content types are defined by a common data model or data format that all
 individual records must conform to (see [data modeling](#data-modeling)).
 Typical database types by content type include:
 
-  * **document repositories** store
+  * **Document repositories** store
     [documents](http://www.isko.org/cyclo/document)
-    such as texts, media files, or other digital objects.
+    such as texts (full-text databases), media files (multimedia databases),
+    or other digital objects.
 
-  * **knowledge bases** store factual statements.
+  * **Knowledge bases** store factual statements. This includes
+    most numeric databases (big data) and bibliographic databases
+    ([metadata](http://www.isko.org/cyclo/metadata)).
 
-  * **spatial database** store geographical information.
+  * **Spatial database** store geographical information.
 
-  * **terminology databases** store units of language and concepts.
+  * **Terminology databases** store units of language and concepts.
 
 Content types mainly dictate how data from databases can be used and combined
 in other information systems, independently from technical and organizational
