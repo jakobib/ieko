@@ -11,9 +11,9 @@ introduction.md
 
 # History of databases
 
-## Prehistory of databases
-
-*...data storing predates written language...*
+~~~include
+prehistory.md
+~~~
 
 ## Bookkeeping and archives
 
@@ -29,10 +29,7 @@ data-modeling.md
 database-management-systems.md
 database-services.md
 classification-of-databases.md
+summary.md
 ~~~
-
-# Summary
-
-...
 
 # References {.unnumbered}

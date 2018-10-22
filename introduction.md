@@ -23,11 +23,11 @@ The term **database** is used with at least five intertwingled connotations:
   these data models and access to the data in secure and performant manner.
 
 * A **database service** or database application is an information system that
-  provides services around a managed set of data. Database services support
-  more specific use cases than database management systems, for instance a
-  library catalog or a web search engine. Their notion of a database goes beyond
-  the realm of data by inclusion of non-technical aspects such as hosting
-  institutions, workflows, and usability.
+  provides services around a managed set of data, for instance a library
+  catalog, a preprint service, or a web search engine . Database services
+  support more specific use cases than database management system. Their notion
+  of a database goes beyond the realm of data by inclusion of non-technical
+  aspects such as hosting institutions, workflows, and usability.
 
 These aspects of databases are covered in sections on [data modeling](#data-modeling)
 including basic properties of data and data sets, [database management systems](#dbms),
