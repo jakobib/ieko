@@ -1,0 +1,63 @@
+[
+  {
+    "ISBN": "1-935504-21-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Kent",
+        "given": "William"
+      }
+    ],
+    "id": "Q25625532",
+    "issued": {
+      "date-parts": [
+        [
+          1978,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "North Holland Publishing Company",
+    "title": "Data and Reality",
+    "type": "book"
+  },
+  {
+    "ISBN": "978-0-9771400-1-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Simsion",
+        "given": "Graeme"
+      }
+    ],
+    "id": "Q25809164",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Technics Publications",
+    "title": "Data Modeling Theory and Practice",
+    "type": "book"
+  },
+  {
+    "ISBN": "978-0-292-77704-0",
+    "id": "Q57532821",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          1,
+          1
+        ]
+      ]
+    },
+    "title": "How writing came about",
+    "type": "book"
+  }
+]

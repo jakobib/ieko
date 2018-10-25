@@ -1,4 +1,10 @@
 *.html
 !ieko*.html
 
+*.tmp
 build/
+
+# WikiCite
+wikicite-references-expanded.json
+citekeys
+node_modules/

@@ -11,6 +11,8 @@ This page contains article drafts for the *[ISKO Encyclopedia of Knowledge Organ
 Articles are written in Markdown syntax and processed with Pandoc to HTML and PDF.
 The current version is automatically published at <https://jakobib.github.io/ieko/>.
 
+[![Build Status](https://travis-ci.org/jakobib/ieko.svg?branch=master)](https://travis-ci.org/jakobib/ieko)
+
 # Feedback
 
 See <https://github.com/jakobib/ieko> for source code. Pull requests are welcome.
