@@ -23,6 +23,135 @@
     "type": "book"
   },
   {
+    "ISBN": "2-85428-728-2",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Pédauque",
+        "given": "Roger T."
+      }
+    ],
+    "id": "Q56741037",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          1
+        ]
+      ]
+    },
+    "title": "La redocumentarisation du monde",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Otlet",
+        "given": "Paul"
+      }
+    ],
+    "id": "Q7833050",
+    "issued": {
+      "date-parts": [
+        [
+          1934,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher-place": "Brussels",
+    "title": "Traité de documentation",
+    "type": "book"
+  },
+  {
+    "DOI": "10.1145/45072.45073",
+    "author": [
+      {
+        "_ordinal": 1,
+        "family": "Hull",
+        "given": "Richard"
+      },
+      {
+        "_ordinal": 2,
+        "family": "King",
+        "given": "Roger"
+      }
+    ],
+    "container-title": "ACM Computing Surveys",
+    "id": "Q57754496",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1987,
+          9,
+          1
+        ]
+      ]
+    },
+    "page": "201-260",
+    "title": "Semantic database modeling: survey, applications, and research issues",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.1145/62061.62062",
+    "author": [
+      {
+        "_ordinal": 1,
+        "family": "Peckham",
+        "given": "Joan"
+      },
+      {
+        "_ordinal": 2,
+        "family": "Maryanski",
+        "given": "Fred"
+      }
+    ],
+    "container-title": "ACM Computing Surveys",
+    "id": "Q57754498",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1988,
+          9,
+          1
+        ]
+      ]
+    },
+    "page": "153-189",
+    "title": "Semantic data models",
+    "type": "article-journal",
+    "volume": "20"
+  },
+  {
+    "ISBN": "1-935504-21-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Kent",
+        "given": "William"
+      }
+    ],
+    "id": "Q25625532",
+    "issued": {
+      "date-parts": [
+        [
+          1978,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "North Holland Publishing Company",
+    "title": "Data and Reality",
+    "type": "book"
+  },
+  {
     "ISBN": "978-0-9771400-1-5",
     "author": [
       {
