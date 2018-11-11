@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jakob Voß" />
+  <title>Database (IEKO)</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="isko.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="https://hypothes.is/embed.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/2.3.6/cash.min.js"></script>
+  <script src="wikicite.js"></script>
+    <link rel="canonical" href="https://jakobib.github.io/ieko/database.html">
+  </head>
+<body>
+<a name="top"></a>
+
+<table>
+
+<tr style="opacity: 0.4">
+<td id="isko"><h1>I S K O</h1></td>
+<td id="banner"><h2><a href="index.html" style="text-decoration:none;">Encyclopedia of Knowledge Organization</h2></a></td>
+</tr>
+
+<tr>
+<td id="navigation" style="opacity: 0.4">
+<a href="http://www.isko.org/index.php" >home</a>
+<a href="http://www.isko.org/about.html">about ISKO</a>
+<a href="http://www.isko.org/join.html">join ISKO</a>
+<a href="http://www.isko.org/ko.html"><cite>Knowledge Organization</cite> journal</a>
+<a href="http://www.isko.org/events.html">ISKO events</a>
+<a href="http://www.isko.org/chapters.html">ISKO chapters</a>
+<a href="http://www.isko.org/people.html">ISKO people</a>
+<a href="http://www.isko.org/pubs.html">ISKO publications</a>
+<a href="http://www.isko.org/cyclo/index.html">Encyclopedia</a>
+<a href="http://www.isko.org/lit.html">KO literature</a>
+<a href="http://www.isko.org/inst.html">KO institutions</a>
+<a href="http://bartoc.org/" title="link to BARTOC">&#8663; KOS registry</a>
+<a href="http://www.isko-mms.net/home/" title="access-account required">&#128274; members</a>
+<a href="http://www.isko.org/contact.html">contact us</a>
+</td>
+<td id="content" rowspan="2">
+
+<p>&nbsp;
+
+<h2 class="title">Database</h2>
+<blockquote>
+by
+<a href="#" class="author">Jakob Voß</a>
+<p></p>
+<div id="TOC">
+  Table of contents:
+  <ul>
+  <li><a href="#introduction">1. Introduction</a></li>
+  <li><a href="#history-of-databases">2. History of databases</a><ul>
+  <li><a href="#prehistory-of-databases">2.1. Prehistory of databases</a></li>
+  <li><a href="#bookkeeping-and-archives">2.2. Bookkeeping and archives</a></li>
+  <li><a href="#digital-databases">2.3. Digital databases</a></li>
+  </ul></li>
+  <li><a href="#data-modeling">2. Data modeling and semantics</a><ul>
+  <li><a href="#notions-of-data">2.1. Notions of Data</a></li>
+  <li><a href="#data-modeling-1">2.2. Data modeling</a><ul>
+  <li><a href="#theory">2.2.1. Theory</a></li>
+  <li><a href="#practice">2.2.2. Practice</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#dbms">2. Database management systems</a><ul>
+  <li><a href="#anatomy-of-a-database-management-systems">2.1. Anatomy of a database management systems</a><ul>
+  <li><a href="#data-dictionary">Data dictionary</a></li>
+  <li><a href="#database-manager">Database manager</a></li>
+  <li><a href="#storage-engine">Storage engine</a></li>
+  <li><a href="#query-engine">Query engine</a></li>
+  </ul></li>
+  <li><a href="#database-models">2.2. Database models</a></li>
+  <li><a href="#application">2.3. Application</a></li>
+  </ul></li>
+  <li><a href="#services">2. Database services and information systems</a></li>
+  <li><a href="#classification">3. Classification of databases</a><ul>
+  <li><a href="#domain-of-application">Domain of Application</a></li>
+  <li><a href="#content-type">Content Type</a></li>
+  <li><a href="#database-model">Database Model</a></li>
+  <li><a href="#implementation">Implementation</a></li>
+  </ul></li>
+  <li><a href="#summary">4. Summary</a></li>
+  <li><a href="#references">References</a></li>
+  </ul>
+</div>
+<p>
+<strong>Abstract</strong>:<br>
+This article is a preliminary draft of an IEKO article about databases, data formats, and data in general.
+</p>
+</blockquote>
+
+<h3 id="introduction">1. Introduction</h3>
+<p>The term <strong>database</strong> is used with at least five intertwingled connotations:</p>
+<ul>
+<li><p>A <strong>data set</strong> is an organized collection of data. This is also known as <em>content</em> of a database. For instance, the content of a bibliographic database is a set of bibliographic records. On the other hand a set of records already establishes a database by its own structure. In this sense each database is a also <a href="http://www.isko.org/cyclo/document">document</a>.</p></li>
+<li><p>A <strong>data model</strong> is a formal conceptualization realized in the way a collection of data is organized. Data models are typically described in levels of abstraction from conceptual models to data schemas, formats, and structures. All models at least implicitly assume a connection of their components to ontological entities. For instance, database fields such as “author” and “date” correspond to notions of authorship and time. In this sense each database is also a <a href="http://www.isko.org/cyclo/kos">knowledge organization system</a>.</p></li>
+<li><p>A <strong>database management system</strong> is a computer program to facilitate and control the creation and modification of structured sets of data. This includes the definition of data models, the collection of data conforming to these data models and access to the data in secure and performant manner.</p></li>
+<li><p>A <strong>database service</strong> or database application is an information system that provides services around a managed set of data, for instance a library catalog, a preprint service, or a web search engine . Database services support more specific use cases than database management system. Their notion of a database goes beyond the realm of data by inclusion of non-technical aspects such as hosting institutions, workflows, and usability.</p></li>
+</ul>
+<p>These aspects of databases are covered in sections on <a href="#data-modeling">data modeling</a> including basic properties of data and data sets, <a href="#dbms">database management systems</a>, and <a href="#services">database services</a>. The <a href="#history">history of databases</a> first provides phenomenological background and insights about the nature of databases. A <a href="#classification">faceted classifion of databases</a> finally helps to locate individual databases and database types from the perspective of Knowledge Organization.</p>
+<h3 id="history-of-databases">2. History of databases</h3>
+<h4 id="prehistory-of-databases">2.1. Prehistory of databases</h4>
+<p>Data storing predates written language. The very first instances of databases can be found in form of <strong>tally sticks</strong>. These counting aids store a single number in a piece of wood or bone. Incremental updates are possible by carving another notch. More elaborated forms of data storage were developed in the Neolithic when domestication of plants and animals led to agricultural economies with increased needs to track amounts of goods.</p>
+<p><strong>Clay tokens</strong> for counting goods appeared in ancient Near East in the 8<sup>th</sup> millenium BC. Various kinds and measures of goods such as barley or sheep were represented by marble-sized pieces of clay in different shapes. The number of token types, precursors of modern data types, increased with the complexity of products and societies <span class="citation" data-cites="SchmandtBesserat1996">(Schmandt-Besserat <a href="#ref-SchmandtBesserat1996">1996</a>)</span>. Around 3500 BC the first cities of Mesopotamia developed a method to store sets of tokens in sealed clay envelopes that eventually led to the invention of writing: a hollow ball of clay called <strong>bulla</strong> was filled with tokens that represented an obilgation or claim and it was fired to avoid tampering. Sometimes the tokens were also impressed on the surface of the envelope to account the content of a bulla without breaking it. This makes clay bullae the first examples of databases with database index.</p>
+<p>At some point people realized that the impressed copies of tokens were enough to store their represented values. Around 3200 BC bullae were replaced by simple pieces of clay with impressions of token shapes and token shapes were replaced by sign of similar shapes and other inscriptions written with a stylus. During third millenium BC writing parted from representation of administrative values to representations of names, words, and eventually phonemes with the advent of cuneiform script.</p>
+<p>The full history of writing is more complex for sure. Writing was later invented indepedently at least two times (in China and in Mesoamerica) and multiple factors had an impact on its development. Still it is worth to note that one of the roots of writing systems stems from two characteristics which also define data today: first its primary use for accounting and second the act of copying representations that fully replace original signs.</p>
+<figure>
+<img src="clay-envelopes.jpg" alt="Clay bullae, tokens and cuneiform script (from an exhibition at the University of Chicago Oriental Institute)" /><figcaption>Clay bullae, tokens and cuneiform script (<a href="https://commons.wikimedia.org/wiki/File%3AClay_accounting_ball_with_calculi%2C_counters%2C_and_evolution_of_cuneiform_-_Oriental_Institute_Museum%2C_University_of_Chicago_-_DSC07070.JPG">from an exhibition</a> at the University of Chicago Oriental Institute)</figcaption>
+</figure>
+<h4 id="bookkeeping-and-archives">2.2. Bookkeeping and archives</h4>
+<p><em>…data management before digital data processing…</em></p>
+<h4 id="digital-databases">2.3. Digital databases</h4>
+<p><em>…from punched cards to NoSQL and Big Data…</em></p>
+<h3 id="data-modeling">2. Data modeling and semantics</h3>
+<p><em>This section will describe basic of data modeling and the nature of structured data.</em></p>
+<h4 id="notions-of-data">2.1. Notions of Data</h4>
+<p>…</p>
+<h4 id="data-modeling-1">2.2. Data modeling</h4>
+<h5 id="theory">2.2.1. Theory</h5>
+<p><em>This section still needs to be simplified and extended by examples!</em></p>
+<p>The set of activities required to design a database or data format is called <strong>data modeling</strong>. Theoretical foundations of data modeling and have been laid out in the 1970s <span class="citation" data-cites="CODASYL1971 Steel1975b">(ACM <a href="#ref-CODASYL1971">1971</a>; Jr. <a href="#ref-Steel1975b">1975</a><a href="#ref-Steel1975b">b</a>)</span>. It defines the basic concepts which are still used today (with different meanings because the original sources are unlike read today). As surveyed by <span class="citation" data-cites="Simsion2007">Simsion (<a href="#ref-Simsion2007">2007</a>, 34ff.)</span> the data modeling terminology differs, especially between academic and practitioners, but also within communities. Nevertheless there is a rough consensus to differentiate three “realms of interest” which are the real world; ideas about the real world existing in the minds of men; and symbols on some storage medium representing these ideas <span class="citation" data-cites="Steel1975b">(Jr. <a href="#ref-Steel1975b">1975</a><a href="#ref-Steel1975b">b</a>, II–1)</span>. Data modeling then includes several stages from one realm of interest to the next, possibly with sub-steps <span class="citation" data-cites="Simsion2007">(Simsion <a href="#ref-Simsion2007">2007</a> ch. 3.1)</span> and several levels of description for different stages and applications <span class="citation" data-cites="Kent1978">(Kent <a href="#ref-Kent1978">1978</a> ch. 2.2.2)</span>.</p>
+<figure>
+<img src="data-modeling-process.png" alt="Summarized data modeling process" /><figcaption>Summarized data modeling process</figcaption>
+</figure>
+<p>Figure XXX shows a synthesis of data modeling process frameworks from across the data modeling literature. It is mainly based on <span class="citation" data-cites="Simsion2007">(Simsion <a href="#ref-Simsion2007">2007</a>, figs. 3–1)</span> who gives an in-depth review of literature and on <span class="citation" data-cites="Steel1975">(Jr. <a href="#ref-Steel1975">1975</a><a href="#ref-Steel1975">a</a>, fig. 2)</span>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> A common model of reality that exists in our minds, shared between individuals via any language, is called <em>universe of discourse</em>. We can only express a limited model and try to formally capture it as <em>conceptual schema</em> in a <em>conceptual model</em>. Conceptual models are also called ‘domain models’ or ‘semantic data models’ <span class="citation" data-cites="Hull1987 Peckham1988">(Hull and King <a href="#ref-Hull1987">1987</a>; Peckham and Maryanski <a href="#ref-Peckham1988">1988</a>)</span> and come with a graphical notation for better understandability. Most conceptual modeling techniques are based on or influenced by the <em>Entity-Relationship Model</em> (ERM) <span class="citation" data-cites="Chen2007">(Chen, Song, and Zhu <a href="#ref-Chen2007">2007</a>)</span>. The terms ‘model’ and ‘schema’ are often used synonymously with connotation on expression for schemas or on meaning for models. A conceptual model can be expressed as in a <em>logical schema</em>. It is also called <em>external schema</em> if it only covers parts of a conceptual model (as ‘views’ to the full model) or if it is not primarily meant for storing data. Both logical and external schema must be implemented in a to actually hold data. If data is stored as database, a typically DMBS implements the physical level so users can work on the physical schema. External models can also be realized as data formats and formal ontologies. Examples of languages to express logical and external schemas are SQL, XSD, and RDFS.</p>
+<p>It is important to recognize that each step includes a feedback loop to the prior level of description: constraints of physical schemas influence logical schemas, logical schemas affect conceptual models, and reality is perceived and changed to better fit existing mental models, as language affects the way we think <span class="citation" data-cites="Whorf1956">(Whorf <a href="#ref-Whorf1956">1956</a>)</span>. Modelers and architects of information systems often ignore these feedbacks, although it can even cascade through multiple levels. If something cannot be expressed within the artificial boundaries of a system, we often mistakenly assume that is does not exist. In practice data is often created and shaped without a clean, explicit data modeling process. Instead of reflecting mental models, data modeling then starts with a conceptual model or even directly with a logical schema or implementation <span class="citation" data-cites="Simsion2007">(Simsion <a href="#ref-Simsion2007">2007</a>)</span>. One can therefore simplify the data modeling process in four levels: mind (reality and mental models), model (conceptual model), schema (logical and external schemas), and implementation (physical schemas) as shown in figure YYYY.</p>
+<figure>
+<img src="simplified-data-modeling-process.png" alt="Simplified data modeling process" /><figcaption>Simplified data modeling process</figcaption>
+</figure>
+<h5 id="practice">2.2.2. Practice</h5>
+<p><em>List and examplain data modeling and schema languages, maybe better in one section</em></p>
+<h3 id="dbms">2. Database management systems</h3>
+<p>Databases are most visible through the software that allows to interact with data: database management system (DBMS) provide controlled access to databases. The purpose of DBMS is to simplify and to secure definition, creation, storage, retrieval, and update of collections of data. This is achieved by limiting interaction with data to a formal database language that hides details of storage, hardware, and algorithms. The most prominent kind of DBMS is relational database management systems (RDBMS) and its Structured Query Language (SQL). Standardization of SQL allows to more or less uniformly manage relation databases in all RDBMS such as Oracle Database, Microsoft SQL Server, MySQL, IBM DB2. Other kinds of databases come with their own database language but the general architecture of DBMS is the same.</p>
+<h4 id="anatomy-of-a-database-management-systems">2.1. Anatomy of a database management systems</h4>
+<p>The general architecture of a DBMS conists of the following functional components (figure X).</p>
+<h5 id="data-dictionary" class="unnumbered">Data dictionary</h5>
+<p>The data dictionary contains information about the individual databases stored in the DBMS: it holds <a href="http://www.isko.org/cyclo/metadata">metadata</a> about databases. In many cases the data dictionary is also stored as databases together with the data it describes, so it can be accessed in the same way.</p>
+<h5 id="database-manager" class="unnumbered">Database manager</h5>
+<p>The database manager is the central control unit of a DBMS. It receives commands and queries from external programs and users and controls execution of commands. The task of the database manager is to ensure consistency (by constraints and integrity checks), reliability (by scheduling), and security (by access control).</p>
+<h5 id="storage-engine" class="unnumbered">Storage engine</h5>
+<p>The storage engine consists of data structures and processes to read and write data in main memory or secondary storage. This includes database indexes for fast access and caches to support parallel processing (transactions) and data recovery.</p>
+<h5 id="query-engine" class="unnumbered">Query engine</h5>
+<p>The query engine translates queries and commands given in the database language into execution plans tha efficiently act on internal data structures of the storage engine.</p>
+<h4 id="database-models">2.2. Database models</h4>
+<p><em>…not finished yet…</em></p>
+<p>Important database models include:</p>
+<ul>
+<li>relational databases (relational model)</li>
+<li>object database (object-oriented model)</li>
+<li>graph database</li>
+<li>document-oriented database</li>
+<li>flat-file databases</li>
+<li>data warehouses (star or snowflake schema)</li>
+</ul>
+<p>Outdated models, except for very specialized applications, include network databases (CODASYL) and hierarchical databases (except for file system).</p>
+<p>NoSQL broadly refers to all non-relation models. Special kinds of NoSQL databases for a specialized data types include key-value stores, XML databases, geospatial databases, and triple stores. The latter often include inference rules (deductive database). Another special feature found in some DBMS is versioning (temporal databases).</p>
+<p>Other specialized models such as column-oriented databases mostly differ by implementation to increase performance for their applications.</p>
+<p>Hierarchical file systems and tabular spreadsheets are often used as databases despite or because of their simplicity.</p>
+<h4 id="application">2.3. Application</h4>
+<p>…</p>
+<p>Database management system abstracts from operating systems and hardware so applications can focus on data models and content. The abstraction hides physical schema (see data modeling…)</p>
+<p>At least in theory choice and maintenance of DBMS can therefore best be hand off to IT departments.</p>
+<p>Relevant for applications: Knowledge of the particular database model and possibility to define and modify databases (access to the data dictionary).</p>
+<p>In practice data is also shaped by other aspects of DBMS than its database models: usability, scripting, APIs, popularity… (example: FileMaker).</p>
+<p>In practice levels of abstraction are not clearly separated and depend on each other.</p>
+<h3 id="services">2. Database services and information systems</h3>
+<p>…Databases are core parts of more general <em>information systems</em>….</p>
+<h3 id="classification">3. Classification of databases</h3>
+<p>Individual databases and database types can be grouped and described according to multiple criteria. From the perspective of Knowledge Organization databases can be classified with a faceted classification of four semantic categories: domain of application, content type, database model, and implementation. The categories can roughly be mapped to the RDA/ONIX categories <em>content</em> for domain of application and content type and to <em>carrier</em> for database model and implementation <span class="citation" data-cites="RDAONIX2006">(Kiorgaard <a href="#ref-RDAONIX2006">2006</a>)</span>. This comparison should be taken with care as both dimensions are connected <span class="citation" data-cites="Green2007">(Green and Fallgren <a href="#ref-Green2007">2007</a>)</span>. In particular what is stored in a database (domain of application) influences how it is structured (content type and database model) and vice versa.</p>
+<h4 id="domain-of-application" class="unnumbered">Domain of Application</h4>
+<p>The most practical aspect of a database is its intended or its actual use. Subcategories of this domain include:</p>
+<ul>
+<li><p>The <strong>subject area</strong> indicates what principal kind of information is managed with the database (e.g. chemical databases, biological databases, financial databases, bibliographical databases, music database…).</p></li>
+<li><p>The <strong>audience or operator</strong> indicates who typically uses the database in which ways (e.g. public databases, private databases, government databases, decision support systems, collaborative databases…).</p></li>
+<li><p>The <strong>type of access</strong> identifies methods and requirements to use the database (e.g. online databases, free databases, commercial databases…).</p></li>
+</ul>
+<p>For instance most library catalogs mainly manage bibliographic metadata. Their audience includes the general public having read access and selected librarians having write access.</p>
+<h4 id="content-type" class="unnumbered">Content Type</h4>
+<p>This aspect refers to the type of records or documents stored in a database. Content types are defined by a common data model or data format that all individual records must conform to (see <a href="#data-modeling">data modeling</a>). Typical database types by content type include:</p>
+<ul>
+<li><p><strong>Document repositories</strong> store <a href="http://www.isko.org/cyclo/document">documents</a> such as texts (full-text databases), media files (multimedia databases), or other digital objects.</p></li>
+<li><p><strong>Knowledge bases</strong> store factual statements. This includes most numeric databases (big data) and bibliographic databases (<a href="http://www.isko.org/cyclo/metadata">metadata</a>).</p></li>
+<li><p><strong>Spatial database</strong> store geographical information.</p></li>
+<li><p><strong>Terminology databases</strong> store units of language and concepts.</p></li>
+</ul>
+<p>Content types mainly dictate how data from databases can be used and combined in other information systems, independently from technical and organizational aspects (see <a href="http://www.isko.org/cyclo/interoperability">interoperability</a>).</p>
+<h4 id="database-model" class="unnumbered">Database Model</h4>
+<p>The database model of a database is a fundamental paradigm that influences how data can best be organized in a database. That is why this aspect of databases is mostly referred to as <em>database type</em>. Popular database models include relational databases, object database, graph database, document-oriented database, flat-file database, and data warehouses.</p>
+<p>Basic properties of distinct database models are described in section <a href="#dbms">database management systems</a>.</p>
+<h4 id="implementation" class="unnumbered">Implementation</h4>
+<p>Technical aspects of databases are more relevant in computer science than in Knowledge Organization. Nevertheless types of implementation influence how databases can be used, so implementations play an important role for instance for usability.</p>
+<p>Examples of categories in this facet of database classification include distributed databases, in-memory databases, and blockchains.</p>
+<h3 id="summary">4. Summary</h3>
+<p>…</p>
+<h3 id="references" class="unnumbered">References</h3>
+<div id="refs" class="references">
+<div id="ref-CODASYL1971">
+<p>ACM, ed. 1971. “CODASYL Database Task Group Report.” Association for Computing Machinery.</p>
+</div>
+<div id="ref-Chen2007">
+<p>Chen, Chaomei, Il-Yeol Song, and Weizhong Zhu. 2007. “Trends in Conceptual Modeling: Citation Analysis of the Er Conference Papers (1975-2005).” In <em>Proceedings of the 11th Issi</em>, 189–200. CSIC. <a href="http://www.conceptualmodeling.org/ER-Citation-Analysis-ISSI2007.pdf" class="uri">http://www.conceptualmodeling.org/ER-Citation-Analysis-ISSI2007.pdf</a>.</p>
+</div>
+<div id="ref-Green2007">
+<p>Green, Rebecca, and Nancy Fallgren. 2007. “Anticipating New Media: A Faceted Classification of Material Types.” In <em>Proceedings of the North American Symposium on Knowledge Organization</em>, edited by Joseph T. Tennis, 1:87–99. <a href="https://doi.org/10.7152/nasko.v1i1.12837" class="uri">https://doi.org/10.7152/nasko.v1i1.12837</a>.</p>
+</div>
+<div id="ref-Hull1987">
+<p>Q57754496 Hull, Richard, and Roger King. 1987. “Semantic Database Modeling: Survey, Applications, and Research Issues.” <em>ACM Computing Surveys</em> 19 (3): 201–60. <a href="https://doi.org/10.1145/45072.45073" class="uri">https://doi.org/10.1145/45072.45073</a>.</p>
+</div>
+<div id="ref-Steel1975">
+<p>Jr., Thomas B. Steel. 1975a. “Data Base Standardization - a Status Report.” In <em>IBM Symposium: Data Base Systems</em>, edited by Helmut F. Hasselmeier and Wilhelm G. Spruth, 39:362–86. LNCS. Springer.</p>
+</div>
+<div id="ref-Steel1975b">
+<p>Q57628849 ———, ed. 1975b. “Interim Report Ansi/X3/Sparc Study Group on Data Base Management Systems 75-02-08.” <em>FDT Bulletin of ACM SIGMOD</em> 7 (2): 1–140.</p>
+</div>
+<div id="ref-Kent1978">
+<p>Q25625532 Kent, William. 1978. <em>Data and Reality</em>. North Holland Publishing Company.</p>
+</div>
+<div id="ref-RDAONIX2006">
+<p>Kiorgaard, Deirdre, ed. 2006. “RDA/Onix Framework for Resource Categorization.” Version 1. <a href="https://www.loc.gov/marc/marbi/2007/5chair10.pdf" class="uri">https://www.loc.gov/marc/marbi/2007/5chair10.pdf</a>.</p>
+</div>
+<div id="ref-Peckham1988">
+<p>Q57754498 Peckham, Joan, and Fred Maryanski. 1988. “Semantic Data Models.” <em>ACM Computing Surveys</em> 20 (3): 153–89. <a href="https://doi.org/10.1145/62061.62062" class="uri">https://doi.org/10.1145/62061.62062</a>.</p>
+</div>
+<div id="ref-SchmandtBesserat1996">
+<p>Q57532821 Schmandt-Besserat, Denise. 1996. <em>How Writing Came About</em>. University of Texas Press.</p>
+</div>
+<div id="ref-Simsion2007">
+<p>Q25809164 Simsion, Graeme. 2007. <em>Data Modeling Theory and Practice</em>. Technics Publications.</p>
+</div>
+<div id="ref-Whorf1956">
+<p>Q57628579 Whorf, Benjamin Lee. 1956. <em>Language, Thought, and Reality</em>. Edited by John Bissell Carroll. MIT Press.</p>
+</div>
+</div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><span class="citation" data-cites="Steel1975">Jr. (<a href="#ref-Steel1975">1975</a><a href="#ref-Steel1975">a</a>, fig. 2)</span> has a better view of <span class="citation" data-cites="Steel1975b">Jr. (<a href="#ref-Steel1975b">1975</a><a href="#ref-Steel1975b">b</a>, fig. VIII 5.1)</span>. Most later works combine realm of reality and conceptual realm into the conceptual model and concentrate on data realm.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+
+</td>
+</tr>
+
+<tr style="opacity: 0.4">
+<td id="logo">
+</td>
+</tr>
+
+</table>
+</body>
+</html>
