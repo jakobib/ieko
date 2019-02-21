@@ -23,6 +23,29 @@
     "type": "book"
   },
   {
+    "ISBN": "978-0-9771400-1-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Simsion",
+        "given": "Graeme"
+      }
+    ],
+    "id": "Q25809164",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Technics Publications",
+    "title": "Data Modeling Theory and Practice",
+    "type": "book"
+  },
+  {
     "ISBN": "2-85428-728-2",
     "author": [
       {
@@ -45,26 +68,81 @@
     "type": "book"
   },
   {
+    "ISBN": "978-0-292-77704-0",
     "author": [
       {
         "_ordinal": -1,
-        "family": "Otlet",
-        "given": "Paul"
+        "family": "Schmandt-Besserat",
+        "given": "Denise"
       }
     ],
-    "id": "Q7833050",
+    "id": "Q57532821",
     "issued": {
       "date-parts": [
         [
-          1934,
+          1996,
           1,
           1
         ]
       ]
     },
-    "publisher-place": "Brussels",
-    "title": "Traité de documentation",
+    "publisher": "University of Texas Press",
+    "title": "How writing came about",
     "type": "book"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Whorf",
+        "given": "Benjamin Lee"
+      }
+    ],
+    "editor": [
+      {
+        "_ordinal": -1,
+        "family": "Carroll",
+        "given": "John Bissell"
+      }
+    ],
+    "id": "Q57628579",
+    "issued": {
+      "date-parts": [
+        [
+          1956,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "MIT Press",
+    "title": "Language, Thought, and Reality",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Jr.",
+        "given": "Thomas B. Steel"
+      }
+    ],
+    "container-title": "ACM SIGMOD Record",
+    "id": "Q57628849",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          1975,
+          1,
+          1
+        ]
+      ]
+    },
+    "number-of-pages": "140",
+    "title": "ANSI/X3/SPARC Study Group on Data Base Management Systems. Interim Report 75-02-08",
+    "type": "book",
+    "volume": "7"
   },
   {
     "DOI": "10.1145/45072.45073",
@@ -129,101 +207,96 @@
     "volume": "20"
   },
   {
-    "ISBN": "1-935504-21-5",
-    "author": [
-      {
-        "_ordinal": -1,
-        "family": "Kent",
-        "given": "William"
-      }
-    ],
-    "id": "Q25625532",
-    "issued": {
-      "date-parts": [
-        [
-          1978,
-          1,
-          1
-        ]
-      ]
-    },
-    "publisher": "North Holland Publishing Company",
-    "title": "Data and Reality",
-    "type": "book"
-  },
-  {
-    "ISBN": "978-0-9771400-1-5",
-    "author": [
-      {
-        "_ordinal": -1,
-        "family": "Simsion",
-        "given": "Graeme"
-      }
-    ],
-    "id": "Q25809164",
-    "issued": {
-      "date-parts": [
-        [
-          2007,
-          1,
-          1
-        ]
-      ]
-    },
-    "publisher": "Technics Publications",
-    "title": "Data Modeling Theory and Practice",
-    "type": "book"
-  },
-  {
-    "ISBN": "978-0-292-77704-0",
-    "author": [
-      {
-        "_ordinal": -1,
-        "family": "Schmandt-Besserat",
-        "given": "Denise"
-      }
-    ],
-    "id": "Q57532821",
-    "issued": {
-      "date-parts": [
-        [
-          1996,
-          1,
-          1
-        ]
-      ]
-    },
-    "publisher": "University of Texas Press",
-    "title": "How writing came about",
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "_ordinal": -1,
-        "family": "Whorf",
-        "given": "Benjamin Lee"
-      }
-    ],
+    "ISBN": "978-0-262-51828-4",
     "editor": [
       {
         "_ordinal": -1,
-        "family": "Carroll",
-        "given": "John Bissell"
+        "family": "Gitelman",
+        "given": "Lisa"
       }
     ],
-    "id": "Q57628579",
+    "id": "Q58767356",
     "issued": {
       "date-parts": [
         [
-          1956,
+          2013,
           1,
           1
         ]
       ]
     },
+    "number-of-pages": "182",
     "publisher": "MIT Press",
-    "title": "Language, Thought, and Reality",
+    "title": "“Raw Data” is an Oxymoron",
+    "type": "book"
+  },
+  {
+    "ISBN": "0-8018-8086-6",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Yates",
+        "given": "JoAnne"
+      }
+    ],
+    "id": "Q61793405",
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Johns Hopkins University Press",
+    "title": "Structuring the information age",
+    "type": "book"
+  },
+  {
+    "URL": "http://www.jonathanfurner.info/wp-content/uploads/2016/12/Furner-Final-Proof-18.4.16.pdf",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Furner",
+        "given": "Jonathan"
+      }
+    ],
+    "container-title": "Information Cultures in the Digital Age: a Festschrift in honor of Rafael Capurro",
+    "id": "Q61793433",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          1
+        ]
+      ]
+    },
+    "page": "287-306",
+    "title": "“Data”: The data",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Otlet",
+        "given": "Paul"
+      }
+    ],
+    "id": "Q7833050",
+    "issued": {
+      "date-parts": [
+        [
+          1934,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher-place": "Brussels",
+    "title": "Traité de documentation",
     "type": "book"
   }
 ]

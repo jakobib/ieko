@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "citation-js": "^0.4.0-9"
+    "citation-js": "^0.4.0-9",
+    "wcite": "^0.3.8"
   }
 }
