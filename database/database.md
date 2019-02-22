@@ -5,8 +5,8 @@ abstract:
     This article is a preliminary draft of an IEKO article about databases, data formats, and data in general.
 
 bibliography:
-- bibliography.bib
-- wikicite-references.json
+- ../bibliography.bib
+- wcite.json
 wikidata-links: true
 citekeys:
   Gitelman2013: Q58767356

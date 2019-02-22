@@ -39,6 +39,7 @@ pandoc_filter Link => sub {
 
     my @lines = split "\n", $_->content;
 
+    # TODO: relative links
     return [
         map {
             -e $_

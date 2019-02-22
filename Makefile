@@ -9,15 +9,9 @@ OPTIONS=-s --template ieko.html --css isko.css -F filter.pl -F pwcite\
 
 .PHONY: build
 
-build: database.html README.html
-	@mkdir -p build 
-	@cp database.html build
+build: README.html
+	./build.sh database
 	@cp README.html build/index.html
-	@cp isko.css build
-	@cp *.jpg build
-	@cp *.png build
-
-database.html: database.md wikicite-references.json
 
 .md.html:
 	pandoc ${OPTIONS} -o $@ $< ieko-foot.yaml

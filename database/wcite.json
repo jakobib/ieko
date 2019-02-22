@@ -1,0 +1,294 @@
+[
+  {
+    "ISBN": "1-935504-21-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Kent",
+        "given": "William"
+      }
+    ],
+    "id": "Q25625532",
+    "issued": {
+      "date-parts": [
+        [
+          1978,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "North Holland Publishing Company",
+    "title": "Data and Reality",
+    "type": "book"
+  },
+  {
+    "ISBN": "978-0-9771400-1-5",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Simsion",
+        "given": "Graeme"
+      }
+    ],
+    "id": "Q25809164",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Technics Publications",
+    "title": "Data Modeling Theory and Practice",
+    "type": "book"
+  },
+  {
+    "ISBN": "2-85428-728-2",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Pédauque",
+        "given": "Roger T."
+      }
+    ],
+    "id": "Q56741037",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          1,
+          1
+        ]
+      ]
+    },
+    "title": "La redocumentarisation du monde",
+    "type": "book"
+  },
+  {
+    "ISBN": "978-0-292-77704-0",
+    "id": "Q57532821",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          1,
+          1
+        ]
+      ]
+    },
+    "title": "How writing came about",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Whorf",
+        "given": "Benjamin Lee"
+      }
+    ],
+    "editor": [
+      {
+        "_ordinal": -1,
+        "family": "Carroll",
+        "given": "John Bissell"
+      }
+    ],
+    "id": "Q57628579",
+    "issued": {
+      "date-parts": [
+        [
+          1956,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "MIT Press",
+    "title": "Language, Thought, and Reality",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Jr.",
+        "given": "Thomas B. Steel"
+      }
+    ],
+    "container-title": "ACM SIGMOD Record",
+    "id": "Q57628849",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          1975,
+          1,
+          1
+        ]
+      ]
+    },
+    "number-of-pages": "140",
+    "title": "ANSI/X3/SPARC Study Group on Data Base Management Systems. Interim Report 75-02-08",
+    "type": "book",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.1145/45072.45073",
+    "author": [
+      {
+        "_ordinal": 1,
+        "family": "Hull",
+        "given": "Richard"
+      },
+      {
+        "_ordinal": 2,
+        "family": "King",
+        "given": "Roger"
+      }
+    ],
+    "container-title": "ACM Computing Surveys",
+    "id": "Q57754496",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1987,
+          9,
+          1
+        ]
+      ]
+    },
+    "page": "201-260",
+    "title": "Semantic database modeling: survey, applications, and research issues",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.1145/62061.62062",
+    "author": [
+      {
+        "_ordinal": 1,
+        "family": "Peckham",
+        "given": "Joan"
+      },
+      {
+        "_ordinal": 2,
+        "family": "Maryanski",
+        "given": "Fred"
+      }
+    ],
+    "container-title": "ACM Computing Surveys",
+    "id": "Q57754498",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          1988,
+          9,
+          1
+        ]
+      ]
+    },
+    "page": "153-189",
+    "title": "Semantic data models",
+    "type": "article-journal",
+    "volume": "20"
+  },
+  {
+    "ISBN": "978-0-262-51828-4",
+    "editor": [
+      {
+        "_ordinal": -1,
+        "family": "Gitelman",
+        "given": "Lisa"
+      }
+    ],
+    "id": "Q58767356",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          1
+        ]
+      ]
+    },
+    "number-of-pages": "182",
+    "publisher": "MIT Press",
+    "title": "“Raw Data” is an Oxymoron",
+    "type": "book"
+  },
+  {
+    "ISBN": "0-8018-8086-6",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Yates",
+        "given": "JoAnne"
+      }
+    ],
+    "id": "Q61793405",
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Johns Hopkins University Press",
+    "title": "Structuring the information age",
+    "type": "book"
+  },
+  {
+    "URL": "http://www.jonathanfurner.info/wp-content/uploads/2016/12/Furner-Final-Proof-18.4.16.pdf",
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Furner",
+        "given": "Jonathan"
+      }
+    ],
+    "container-title": "Information Cultures in the Digital Age: a Festschrift in honor of Rafael Capurro",
+    "id": "Q61793433",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          1
+        ]
+      ]
+    },
+    "page": "287-306",
+    "title": "“Data”: The data",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "_ordinal": -1,
+        "family": "Otlet",
+        "given": "Paul"
+      }
+    ],
+    "id": "Q7833050",
+    "issued": {
+      "date-parts": [
+        [
+          1934,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher-place": "Brussels",
+    "title": "Traité de documentation",
+    "type": "book"
+  }
+]
