@@ -18,9 +18,11 @@ The term **database** is used with at least five intertwingled connotations:
   [knowledge organization system](http://www.isko.org/cyclo/kos).
 
 * A **database management system** is a computer program to facilitate and
-  control the creation and modification of structured sets of data. This
-  includes the definition of data models, the collection of data conforming to
-  these data models and access to the data in secure and performant manner.
+  control the creation, storage, and modification of structured sets of data.
+  This includes the definition of data models, the collection of data conforming
+  to these data models and access to the data in secure and performant manner.
+  Examples of database management systems include relational databases and
+  file systems.
 
 * A **database service** or database application is an information system that
   provides services around a managed set of data, for instance a library
