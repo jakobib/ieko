@@ -27,24 +27,7 @@ nocite: |
 
 ~~~include
 introduction.md
-~~~
-
-# History of databases
-
-~~~include
-prehistory.md
-~~~
-
-## Bookkeeping and archives
-
-*...data management before digital data processing...*
-
-## Digital databases
-
-*...from punched cards to NoSQL and Big Data...*
-
-
-~~~include
+history.md
 data-modeling.md
 database-management-systems.md
 database-services.md

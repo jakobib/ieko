@@ -1,4 +1,8 @@
-## Prehistory of databases
+# History of databases
+
+*...introduction...*
+
+## Database prehistory
 
 Data storing predates written language.  The very first instances of databases
 can be found in form of **tally sticks**.  These counting aids store a single
@@ -29,7 +33,7 @@ administrative values to representations of names, words, and eventually
 phonemes with the advent of cuneiform script.
 
 The full history of writing is more complex for sure. Writing was later
-invented indepedently at least two times (in China and in Mesoamerica) and
+invented independently at least two times (in China and in Mesoamerica) and
 multiple factors had an impact on its development. Still it is worth to note
 that one of the roots of writing systems stems from two characteristics which
 also define data today: first its primary use for accounting and second the act
@@ -38,4 +42,30 @@ of copying representations that fully replace original signs.
 ![Clay bullae, tokens and cuneiform script ([from an exhibition] at the University of Chicago Oriental Institute)](clay-envelopes.jpg)
 
 [from an exhibition]: https://commons.wikimedia.org/wiki/File%3AClay_accounting_ball_with_calculi%2C_counters%2C_and_evolution_of_cuneiform_-_Oriental_Institute_Museum%2C_University_of_Chicago_-_DSC07070.JPG
+
+## Pre-digital databases
+
+Before the introduction of digital data processing in the late 19th century
+data was recorded and processed mainly in form of written documents. Though
+script was also used for communication in written language, a main purpose
+remained in accounting and record keeping.
+
+Pre-digital databases can be found in the works of institutions and individuals
+that had to handle large numbers of uniformly structured documents. Their
+traces reach back to scribes in ancient Egypt and ancient China, notaries in
+the Roman Empire, and to merchants and banks in Medieval and Renaissance Italy.
+
+<!--
+
+The latter: first detailed remaining sources of specialized methods to organize
+collections of data
+
+-->
+
+...
+
+## Digital databases
+
+*...from punched cards to NoSQL and Big Data...*
+
 
